@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://salahi.hossein%40gmail.com@github.com/encodeflush/fluxcd-apps.git
+  url: ssh://git@github.com/encodeflush/fluxcd-apps.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
